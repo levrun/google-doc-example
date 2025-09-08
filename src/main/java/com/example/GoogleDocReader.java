@@ -39,7 +39,7 @@ public class GoogleDocReader {
     public static void main(String[] args) throws Exception {
         String docId = (args.length > 0)
                 ? args[0]
-                : "1Z9gQnt7wiGHDmlvWjYqW1klEBHyS7Sn2oGVLNoXFzWI";
+                : "1ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijk123456789";
 
         var http = GoogleNetHttpTransport.newTrustedTransport();
         var cred = authorize(http);

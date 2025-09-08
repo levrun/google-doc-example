@@ -34,7 +34,7 @@ GoogleDocReader is a Java command-line application that reads the contents of a 
 
 ## Example
 ```powershell
-mvn -U clean compile exec:java --% -Dexec.mainClass=com.example.GoogleDocReader -Dexec.args=1Z9gQnt7wiGHDmlvWjYqW1klEBHyS7Sn2oGVLNoXFzWI
+mvn -U clean compile exec:java --% -Dexec.mainClass=com.example.GoogleDocReader -Dexec.args=1ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijk123456789
 ```
 
 ## Notes
